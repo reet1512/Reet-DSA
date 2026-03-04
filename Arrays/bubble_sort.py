@@ -7,7 +7,7 @@ def bubble_sort(data: MutableSequence) -> None:
             if data[i] > data[i+1]:
                 data[i],data[i+1] = data[i+1],data[i] #number swap if the current number is greater than the next number 
             
-        print(f"End of pass : {sorted_partition} :'data' is now  {data}") # print the current state of the list after each pass
+        #print(f"End of pass : {sorted_partition} :'data' is now  {data}") # print the current state of the list after each pass
 
 if __name__ == "__main__":
     from array import array
